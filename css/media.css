@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+    .dropdown-menu {
+        border: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        border: none;
+    }
+
+    .promo__title {
+        font-size: 34px;
+        line-height: 55px;
+    }
+
+    .promo__title::after {
+        bottom: -45px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .promo__text {
+        margin-top: 0;
+    }
+
+    .promo__text::after {
+        display: none;
+    }
+}
